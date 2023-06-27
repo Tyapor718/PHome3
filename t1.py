@@ -7,7 +7,7 @@
 #     3
 #     -> 1
 from random import randint
-from collections import Counter
+
 N= int (input ('Введите N '))
 X= int (input ('Введите X '))
 a=[randint (1,5) for i in range (N)]
